@@ -25,7 +25,7 @@ The repository is organized in the following folders:
 + 1) code
 ```
 
-1.  **simulations**. This folder containes the simulations...
+1.  **bblalbal**. bblalbal...
 2. **bblalbal**. bblalbal.
 3.  **bblalbal**. bblalbal
 
