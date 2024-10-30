@@ -37,8 +37,8 @@ The repository is organized in the following folders:
 ```
 The code folder contains all the code used for the implementation of the methods and the results section, inlcuding tables and figures. We used both R and Python and the details of each folder structure is given below.
 
-1.  **python**. This folder contains the ptyhon code 
-2. **R**. This folder contains R code 
+1.  **python**. This folder contains the ptyhon code used for the NLP fine tune and the prediction of the COSI need labels.
+2. **R**. This folder contains R code used to implement the plots, the statistics, the statistical tests and the statistical models.
 
 
 ```diff
@@ -51,16 +51,6 @@ The paper folder contains the following pdf:
 2.  **Supplementary Information**. This pdf provides all the Supplementary Information.
 
 
-
-## Dependencies for the .... method
-
-These are the dependencies to use the ... method implemented within the ......py class:
-
-* numpy
-* ..
-* ..
-* ...
-* ..
 
 ## Cite
 
