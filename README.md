@@ -55,3 +55,11 @@ The paper folder contains the following pdf:
 ## Cite
 
 If you use this code in your project, please cite:
+
+@article{..,
+  title={..},
+  author={..},
+  journal={..},
+  year={..}
+}
+
