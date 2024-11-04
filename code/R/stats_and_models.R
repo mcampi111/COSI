@@ -28,10 +28,10 @@ library(psych)
 # SET DIRECTORY AND READ FILE #
 ###############################
 
-mydir<- "/Users/mcampi/Desktop/Postdoc_Pasteur/Perrine/code/"
+mydir<- "./code/"
 
-mydir_figs = "/Users/mcampi/Desktop/Postdoc_Pasteur/Perrine/code/figs/"
-mydir_excel = "/Users/mcampi/Desktop/Postdoc_Pasteur/Perrine/code/excel_results/"
+mydir_figs = "./code/figs/"
+mydir_excel = "./code/excel_results/"
 
 
 source(paste(mydir, "utils_COSI.R", sep = "")) 
@@ -124,10 +124,7 @@ colnames(df_COSI2)
 
 
 #SNR & SRT Variables
-#SRT Variable -- NOT RUNNING THIS
-#df_COSI2 <- subset(df_COSI2, SRT >= 0 & SRT <= 90)
-
-#SNR Variable --> I RUN THIS FOR NOW
+#SNR Variable 
 df_COSI2 <- subset(df_COSI2, SNR >= -10 & SNR <= 20)
 
 
