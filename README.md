@@ -1,7 +1,7 @@
 # COSI
 This repository is linked to the methodology developed in the paper with title **"Beyond the Audiogram: Using PROMs and AI Modelling to Characterise Age-and Sex-Specific Hearing Loss Needs in a Nationwide Study"**.  
 
-The pdf for the paper is available at this url .... and provided in the folder "paper", where it is also possibile to find the Supplementary Materials.
+The pdf for the paper is available at this url https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5282029 and provided in the folder "paper", where it is also possibile to find the Supplementary Materials.
 
 ## **Abstract**
 
