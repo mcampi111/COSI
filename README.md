@@ -1,19 +1,19 @@
 # COSI
-This repository is linked to the methodology developed in the paper with title **"Hearing Loss Characterisation Using Natural Language Processing Modeling on large-scale Patient-Reported Outcomes Measures"**.  
+This repository is linked to the methodology developed in the paper with title **"Beyond the Audiogram: Using PROMs and AI Modelling to Characterise Age-and Sex-Specific Hearing Loss Needs in a Nationwide Study"**.  
 
 The pdf for the paper is available at this url .... and provided in the folder "paper", where it is also possibile to find the Supplementary Materials.
 
 ## **Abstract**
 
-**Background**: Hearing loss affects 1.5 billion people globally, including over 50% of French individuals aged 65 and older. Traditional assessment like tonal and speech gains fail to capture the broader impact on daily life. Patient-Reported Outcome Measures (PROMs), such as the COSI questionnaire, provide personalized insights to enhance patient care. This study integrates Natural-Language Processing (NLP) techniques to analyze COSI data, assessing PROMs' benefit in audiology and the specific needs of hearing-impaired patients in France.
+**Background**: Hearing loss (HL) affects 1.5 billion people globally, with significant economic and psychosocial costs. Traditional audiometric assessments often overlook psychosocial impacts, limiting intervention effectiveness. This study uses Patient-Reported Outcome Measures (PROMs), specifically the Client Oriented Scale of Improvement (COSI), and AI-based Natural Language Processing (NLP) to identify age-and sex-specific patterns in hearing-related needs and inform personalised care strategies.
 
-**Methods**: We conducted a population-based, cross-sectional, comparative analysis with 190,213 adults with symmetric hearing loss in France, collecting data between September 2020 and December 2022. Expert-labelled data was used to train an advanced French NLP model known in the literature as CamemBERT. Advanced regression analysis examined the contributions of speech tests, age, sex, and COSI responses to pure-tone average (PTA) hearing loss categories. 
+**Methods**: We conducted a cross-sectional analysis of 273,861 COSI responses from a national database. Participants aged 18-99 years with symmetrical HL and first-time hearing aid use were included. NLP modelling classified responses into 16 standardized listening categories. Statistical analyses (Chi-Squared, ANOVA, regressions) examined associations between hearing needs, age, sex, and audiological outcomes, with clustering analyses exploring broader patterns.
 
-**Findings**:  Patients with slight hearing loss and those aged 40-49 prioritize understanding speech in noise, highlighting the need for early testing and speech-in-noise assessments. Females emphasize social and emotional aspects earlier than males.
+**Findings**: Among 91,297 participants, PROMs revealed key needs-understanding group conversations in noise, media listening, and reducing communication-related embarrassment-regardless of HL severity. Several PROMs significantly predicted pure-tone average, highlighting their clinical value. Signal-to-noise ratio emerged as an early marker of HL in younger adults. Sex-specific patterns showed women prioritized social and emotional needs, while men emphasized structured settings such as meetings and television. These differences varied by age and HL degree, underscoring the need for individualised care.
 
-**Interpretation**: Incorporating PROMs in audiology provided significant benefits in assessing patient needs, surpassing the limitations of audiograms and speech tests alone. The analysis of responses across the COSI enabled a nuanced understanding of individual hearing difficulties and rehabilitation goals. NLP integration into clinical systems can improve policies and interventions for hearing loss.
+**Interpretation**: Integrating PROMs into audiological practice enhances decision-making by uncovering hidden needs, enabling more targeted and comprehensive interventions. PROMs provide essential context for understanding the lived experience of HL and support a shift toward personalised hearing care.
 
-**Funding**: This research was funded by a grant from Fondation Pour l’Audition (FPA) to Hung Thai-Van and Paul Avan, number FPA IDA09 and FPA IDA10.
+**Funding**: This research was funded by a grant from Fondation Pour l’Audition (FPA) to Hung Thai-Van and Paul Avan, number FPA IDA09 and FPA IDA10 and Amplifon France.
 
 
 ## Contributions of the paper
@@ -56,10 +56,9 @@ The paper folder contains the following pdf:
 
 If you use this code in your project, please cite:
 
-@article{..,
-  title={..},
-  author={..},
-  journal={..},
-  year={..}
+@article{morvan2025beyond,
+  title={Beyond the Audiogram: Using PROMs and AI Modelling to Characterise Age-and Sex-Specific Hearing Loss Needs in a Nationwide Study},
+  author={Morvan, Perrine and Campi, Marta and Peters, Gareth and Thai-Van, Hung},
+  journal={Available at SSRN 5282029},
+  year={2025}
 }
-
