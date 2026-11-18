@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+statsmodels>=0.14
+scikit-learn>=1.7
+matplotlib
+openpyxl

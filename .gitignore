@@ -1,0 +1,10 @@
+# Never commit data or patient-level outputs
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.pkl
+cosi_reanalysis_out/
+cosi_cmu_out/
+*.txt
+!requirements.txt
